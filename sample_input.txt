@@ -1,0 +1,27 @@
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+./bin/trackObject -v 4 /sandbox/samples/gordon.flv /sandbox/job/36/cache.xml /sandbox/job/36/moment /sandbox/job/36/temp /sandbox/job/36/image /sandbox/job/36/xml 23.97 "38 false http://seeveedee.com/data/video_proc/12/proc_data.txt /home/manager/public_html/discovervideo/public/data/video_proc/12/proc_data.txt vqQT2yneZOs" "1679 777 2859 6861 244020 /home/manager/public_html/discovervideo/public/data/tag_xml/53/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/53/image.jpg" "6148 1194 2343 5583 293250 /home/manager/public_html/discovervideo/public/data/tag_xml/54/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/54/image.jpg" "5101 7324 4484 2051 881830 /home/manager/public_html/discovervideo/public/data/tag_xml/68/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/68/image.jpg"
+
+
+./bin/trackObject -v 4 /sandbox/samples/obamasmall.mp4 /sandbox/job/66/cache.xml /sandbox/job/66/moment  /sandbox/job/66/temp /sandbox/job/66/image /sandbox/job/66/xml 23.97 "66 false http://seeveedee.com/data/video_proc/3/proc_data.txt /home/manager/public_html/discovervideo/public/data/video_proc/3/proc_data.txt m8QVg2TWLo8" "2953 138 2375 5333 151430  /home/manager/public_html/discovervideo/public/data/tag_xml/2/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/2/image.jpg" "7125 166 2500 8000 201070  /home/manager/public_html/discovervideo/public/data/tag_xml/41/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/41/image.jpg" "1500 27 3500 7750 566910  /home/manager/public_html/discovervideo/public/data/tag_xml/3/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/3/image.jpg" "4359 6527 1375 2500 1189720  /home/manager/public_html/discovervideo/public/data/tag_xml/42/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/42/image.jpg"
+
+
+---Nat
+./bin/trackObject -v 4 /sandbox/job/88/video.mp4 /sandbox/job/88/cache.xml /sandbox/job/88/moment /sandbox/job/88/temp /sandbox/job/88/image /sandbox/job/88/xml 14.97 "88 false http://seeveedee.com/data/video_proc/15/cache.xml /home/manager/public_html/discovervideo/public/data/video_proc/15/cache.xml ulV0W2zRmnI" "3291 55 3750 5361 173690  /home/manager/public_html/discovervideo/public/data/tag_xml/76/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/76/image.jpg"
+
+
+--Stewie beats brian
+./bin/trackObject -v 4 /sandbox/job/95/video.mp4 /sandbox/job/95/cache.xml /sandbox/job/95/moment /sandbox/job/95/temp /sandbox/job/95/image /sandbox/job/95/xml 29.94 "95 false http://seeveedee.com/data/video_proc/29/cache.xml /home/manager/public_html/discovervideo/public/data/video_proc/29/cache.xml _AJ0SkbPxAk" "1145 4000 3145 5250 107280  /home/manager/public_html/discovervideo/public/data/tag_xml/92/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/92/image.jpg"
+
+
+--Stewie beats brian 2
+./bin/trackObject -v 4 /sandbox/job/115/video.mp4 /sandbox/job/115/cache.xml /sandbox/job/115/moment /sandbox/job/115/temp /sandbox/job/115/image /sandbox/job/115/xml 29.94 "115 false http://seeveedee.com/data/video_proc/34/cache.xml /home/manager/public_html/discovervideo/public/data/video_proc/34/cache.xml EuAVgWJ28Hw" "4645 4055 2270 4361 92530  /home/manager/public_html/discovervideo/public/data/tag_xml/111/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/111/image.jpg" "812 916 7500 4777 593970  /home/manager/public_html/discovervideo/public/data/tag_xml/110/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/110/image.jpg" 
+
+--obama
+./bin/trackObject -v 4 /sandbox/job/114/video.mp4 /sandbox/job/114/cache.xml /sandbox/job/114/moment /sandbox/job/114/temp /sandbox/job/114/image /sandbox/job/114/xml 23.97 "114 false http://seeveedee.com/data/video_proc/3/cache.xml /home/manager/public_html/discovervideo/public/data/video_proc/3/cache.xml m8QVg2TWLo8" "3046 194 2375 5250 151430  /home/manager/public_html/discovervideo/public/data/tag_xml/2/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/2/image.jpg"
+
+--zunavision
+./bin/trackObject -v 4 /sandbox/job/116/video.mp4 /sandbox/job/116/cache.xml /sandbox/job/116/moment /sandbox/job/116/temp /sandbox/job/116/image /sandbox/job/116/xml 59.75 "116 false http://seeveedee.com/data/video_proc/19/cache.xml /home/manager/public_html/discovervideo/public/data/video_proc/19/cache.xml eNyXwC5YUsc" "3000 1972 1875 4027 21360  /home/manager/public_html/discovervideo/public/data/tag_xml/95/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/95/image.jpg"
+
+--stewie out of bounds cutout
+./bin/trackObject -v 4 /sandbox/job/139/video.mp4 /sandbox/job/139/cache.xml /sandbox/job/139/moment /sandbox/job/139/temp /sandbox/job/139/image /sandbox/job/139/xml 29.94 "139 true http://seeveedee.com/data/video_proc/29/cache.xml /home/manager/public_html/discovervideo/public/data/video_proc/29/cache.xml _AJ0SkbPxAk" "781 -777 2979 6027 7430  /home/manager/public_html/discovervideo/public/data/tag_xml/112/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/112/image.jpg" 

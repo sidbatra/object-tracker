@@ -1,0 +1,148 @@
+test.o: test.cpp base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h utilities.h visionUtilities.h xmlParser.h \
+  video.h frame.h position.h tag.h tracker.h svlImageSequence.h
+point.o: point.cpp point.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h
+position.o: position.cpp position.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h utilities.h visionUtilities.h xmlParser.h
+tag.o: tag.cpp tag.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h utilities.h visionUtilities.h xmlParser.h \
+  frame.h position.h
+frame.o: frame.cpp frame.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h utilities.h visionUtilities.h xmlParser.h \
+  position.h
+video.o: video.cpp video.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h utilities.h visionUtilities.h xmlParser.h \
+  frame.h position.h tag.h tracker.h
+tracker.o: tracker.cpp tracker.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h utilities.h visionUtilities.h xmlParser.h \
+  frame.h position.h tag.h
+constants.o: constants.cpp constants.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h logger.h utilities.h visionUtilities.h xmlParser.h
+logger.o: logger.cpp logger.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h utilities.h visionUtilities.h xmlParser.h
+utilities.o: utilities.cpp utilities.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h visionUtilities.h xmlParser.h
+visionUtilities.o: visionUtilities.cpp visionUtilities.h base.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxerror.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvver.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvtypes.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cv.hpp \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cvcompat.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/cxcore.h \
+  /afs/cs.stanford.edu/group/stair/libs32/opencv/include/opencv/highgui.h \
+  point.h constants.h logger.h utilities.h xmlParser.h
+xmlParser.o: xmlParser.cpp xmlParser.h

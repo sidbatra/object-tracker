@@ -1,0 +1,16 @@
+8
+
+dir
+2
+svn+ssh://manager@seeveedee.com/home/manager/svn/video_processor/trunk/objectTracker/bin
+svn+ssh://manager@seeveedee.com/home/manager/svn/video_processor/trunk
+
+
+
+2009-05-24T07:23:47.068513Z
+1
+manager
+
+
+svn:special svn:externals svn:needs-lock
+
