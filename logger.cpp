@@ -15,7 +15,7 @@
 //****************************************************************************
 
 LogLevel Logger::level;
-LogType  Logger::type ;
+LogType  Logger::type;
 ofstream Logger::stream;
 string Logger::filename = "log.txt";
 string Logger::prefix = "XEWMVD";
@@ -24,8 +24,7 @@ string Logger::prefix = "XEWMVD";
 //Methods
 //****************************************************************************
 	
-void Logger::setup( LogLevel level_p , LogType type_p )
-{
+void Logger::setup( LogLevel level_p , LogType type_p ) {
 	Logger::level = level_p;
 	Logger::type = type_p;
 	
@@ -40,15 +39,13 @@ void Logger::setup( LogLevel level_p , LogType type_p )
 	
 }
 
-void Logger::free()
-{
+void Logger::free() {
 		if(	Logger::type == LOG_FILE && stream.is_open() )
 			stream.close();
 }
 
 //Submit a log entry
-void Logger::log( LogLevel level_p , const string &msg)
-{
+void Logger::log( LogLevel level_p , const string &msg) {
 
 	if( Logger::level >= level_p )
 	{
