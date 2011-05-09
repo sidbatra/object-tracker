@@ -1,4 +1,6 @@
-0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+Object tracking across the frames of a video
+
+Sample inputs
 
 ./bin/trackObject -v 4 /sandbox/samples/gordon.flv /sandbox/job/36/cache.xml /sandbox/job/36/moment /sandbox/job/36/temp /sandbox/job/36/image /sandbox/job/36/xml 23.97 "38 false http://seeveedee.com/data/video_proc/12/proc_data.txt /home/manager/public_html/discovervideo/public/data/video_proc/12/proc_data.txt vqQT2yneZOs" "1679 777 2859 6861 244020 /home/manager/public_html/discovervideo/public/data/tag_xml/53/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/53/image.jpg" "6148 1194 2343 5583 293250 /home/manager/public_html/discovervideo/public/data/tag_xml/54/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/54/image.jpg" "5101 7324 4484 2051 881830 /home/manager/public_html/discovervideo/public/data/tag_xml/68/tracks.xml /home/manager/public_html/discovervideo/public/data/tag_image/68/image.jpg"
 
